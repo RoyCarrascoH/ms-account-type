@@ -13,10 +13,6 @@ local:
 spring:
   application:
     name: service-account-type
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/AccountTypeDB
-      auto-index-creation: true
   config:
     import: optional:configserver:http://ms-config-server:8888
 eureka:
